@@ -1,0 +1,10 @@
+{
+    "project": {
+        "appname": "study",
+        "options": {
+            "css": "stylus",
+            "html": "jade",
+            "save-config": false
+        }
+    }
+}
