@@ -20,8 +20,11 @@
         "grunt-cli": "^0.1.13",
         "lorem-ipsum": "^1.0.1",
         "grunt-contrib-clean": "^0.6.0",
-        "grunt-html-glob": "^0.2.0",
+        "grunt-html-glob": "^0.2.1",
         "uglify-js": "^2.4.15",
-        "lodash": "^2.4.1"
+        "lodash": "^2.4.1",
+        "axis": "^0.3.0",
+        "grunt-simple-cdnify": "^0.1.2",
+        "grunt-i18n-static": "^0.1.8"
     }
 }

@@ -6,5 +6,6 @@
             "html": "jade",
             "save-config": false
         }
-    }
+    },
+    "leaves": "0.23.3"
 }
