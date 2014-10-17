@@ -1,19 +1,22 @@
 extends ./layout.jade
 
+mixin slide(title, date, url)
+  .item
+    h2= title
+
+    iframe(src="./#{url}")
+
+    p.date Published on #{date}
+    p.link
+      a(href="./#{url}")
+        i.fa.fa-link.fa-lg
+        | Direct Link
+
 block content
   h1 Meetups.ClaudeTech.com
   p 弊社で行った勉強会の資料を公開いたします。
 
-  .item
-    h2 AngularJS入門
-
-    iframe(src="./1-angular-intro")
-
-    p.date Published on September 26, 2014
-    p.link
-      a(href="./1-angular-intro")
-        i.fa.fa-link.fa-lg 
-        | Direct Link
-
+  +slide('NodeJS入門', 'October 18, 2014', '2-nodejs-intro')
+  +slide('AngularJS入門', 'September 26, 2014', '1-angular-intro')
 
   .logo: a(href="http://claudetech.com"): img(src="./img/logo.svg")

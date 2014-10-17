@@ -151,5 +151,9 @@ body {
   font-size: 22pt; }
 .reveal .slides .center {
   text-align: center; }
+.reveal .slides h1 code, .reveal .slides h2 code, .reveal .slides h3 code, .reveal .slides h4 code, .reveal .slides h5 code, .reveal .slides h6 code {
+  text-transform: lowercase;
+  letter-spacing: -3px;
+  font-family: monospace; }
 
 /*# sourceMappingURL=theme.css.map */
