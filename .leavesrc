@@ -7,5 +7,10 @@
             "save-config": false
         }
     },
-    "leaves": "0.23.3"
+    "leaves": "0.23.3",
+    "commands": {
+        "publish": {
+            "provider": "ftp"
+        }
+    }
 }
